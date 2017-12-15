@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "791399134917",
+    "project_id": "firebase-github-users"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791399134917:android:70b3959657488914",
+        "android_client_info": {
+          "package_name": "com.example.mborzenkov.githubusers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791399134917-3fpjd3s4nup7ski9bkqimn2aktcn2leh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mborzenkov.githubusers",
+            "certificate_hash": "7f2d9be3abd059b8b553007e461db6d375456636"
+          }
+        },
+        {
+          "client_id": "791399134917-nqpnj43li1p1vajrviug3j3ufu484cbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzX66cykBZ-QOxF5VUUlXnJb30kKtK_ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

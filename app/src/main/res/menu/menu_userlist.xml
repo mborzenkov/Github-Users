@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_userlist"
+    tools:context=".activity.MainActivity"
+    >
+
+    <item
+        android:id="@+id/action_userlist_signin"
+        android:icon="@drawable/ic_signin"
+        android:orderInCategory="1"
+        android:title="@string/loginbar_signin"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/action_userlist_logoff"
+        android:orderInCategory="3"
+        android:title="@string/loginbar_logoff"
+        app:showAsAction="never"
+        />
+
+</menu>

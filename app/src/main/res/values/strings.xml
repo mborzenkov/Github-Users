@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Уровень приложения -->
+    <string name="app_name" translatable="false">Github Users</string>
+    <string name="content_authority" translatable="false">com.example.mborzenkov.githubusers</string>
+    <string name="facebook_app_id" translatable="false">1611054418988759</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1611054418988759</string>
+    <integer name="com_vk_sdk_AppId">6297027</integer>
+
+
+    <!-- UserList -->
+    <string name="userlist_image_contentdescription">Image of user</string>
+    <string name="userlist_search_placeholder">Search users…</string>
+    <string name="userlist_search_contentdescription">Search users icon</string>
+    <string name="userlist_empty">No results found</string>
+
+    <string name="pagination_page">Page</string>
+    <string name="pagination_button_prev" translatable="false">&lt;</string>
+    <string name="pagination_button_next" translatable="false">&gt;</string>
+
+
+    <!-- UserInfo -->
+    <string name="userinfo_image_contentdescription">Image of user</string>
+    <string name="userinfo_icon_location_contentdescription">Location icon</string>
+    <string name="userinfo_icon_email_contentdescription">Email icon</string>
+    <string name="userinfo_icon_blog_contentdescription">Link icon</string>
+    <string name="userinfo_icon_followers_contentdescription">Followers icon</string>
+    <string name="userinfo_menu_opengithub">View on Github</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_cancel">Skip</string>
+    <string name="login_vk">Continue with vk</string>
+
+
+    <!-- Login bar -->
+    <string name="loginbar_image_contentdescription">Your image</string>
+    <string name="loginbar_signin">Sign in</string>
+    <string name="loginbar_edit">Edit</string>
+    <string name="loginbar_logoff">Log off</string>
+
+
+</resources>

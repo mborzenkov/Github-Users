@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Styles XML для AppBar в UserListFragment -->
+    <style name="Loginbar"/>
+    <style name="Loginbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+</resources>

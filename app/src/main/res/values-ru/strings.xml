@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Уровень приложения -->
+    <integer name="com_vk_sdk_AppId">6297027</integer>
+
+
+    <!-- UserList -->
+    <string name="userlist_image_contentdescription">Изображение пользователя</string>
+    <string name="userlist_search_placeholder">Искать пользователей…</string>
+    <string name="userlist_empty">Не найдено ни одного пользователя</string>
+
+    <string name="pagination_page">Страница</string>
+
+
+    <!-- EditItem -->
+
+
+    <!-- Login -->
+    <string name="login_title">Авторизация</string>
+    <string name="login_cancel">Пропустить</string>
+    <string name="login_vk">Продолжить с vk</string>
+
+
+    <!-- Login bar -->
+    <string name="loginbar_image_contentdescription">Ваше изображение</string>
+    <string name="loginbar_signin">Войти</string>
+    <string name="loginbar_edit">Редактровать</string>
+    <string name="loginbar_logoff">Выйти</string>
+    <string name="userlist_search_contentdescription">Поиск пользователей</string>
+    <string name="userinfo_image_contentdescription">Изображение пользователя</string>
+    <string name="userinfo_icon_location_contentdescription">Местонахождение пользователя</string>
+    <string name="userinfo_icon_email_contentdescription">Email пользователя</string>
+    <string name="userinfo_icon_blog_contentdescription">Блог</string>
+    <string name="userinfo_icon_followers_contentdescription">Количество подписчиков</string>
+    <string name="userinfo_menu_opengithub">Открыть на Github</string>
+
+
+</resources>

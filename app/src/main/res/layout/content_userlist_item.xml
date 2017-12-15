@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview_userlist_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_block"
+    android:layout_marginLeft="@dimen/marginhorizontal_small"
+    android:layout_marginStart="@dimen/marginhorizontal_small"
+    android:layout_marginRight="@dimen/marginhorizontal_small"
+    android:layout_marginEnd="@dimen/marginhorizontal_small"
+    android:layout_marginTop="@dimen/marginvertical_small"
+    app:cardCornerRadius="@dimen/cardview_cornerradius"
+    app:cardElevation="@dimen/cardview_elevation"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        >
+
+        <ImageView
+            android:id="@+id/iv_userlist_item_image"
+            android:layout_width="@dimen/size_image_small"
+            android:layout_height="@dimen/size_image_small"
+            android:layout_marginLeft="@dimen/marginhorizontal_normal"
+            android:layout_marginStart="@dimen/marginhorizontal_normal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/userlist_image_contentdescription"
+            tools:background="@color/primary_light"
+            />
+
+        <TextView
+            android:id="@+id/tv_userlist_item_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginhorizontal_huge"
+            android:layout_marginStart="@dimen/marginhorizontal_huge"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="username"
+            style="@style/Text.Primary"
+            />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

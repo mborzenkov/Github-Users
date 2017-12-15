@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Стандартные отступы между элементами -->
+    <dimen name="marginvertical_tiny">4dp</dimen>
+    <dimen name="marginvertical_small">8dp</dimen>
+    <dimen name="marginvertical_normal">16dp</dimen>
+    <dimen name="marginvertical_large">32dp</dimen>
+    <dimen name="marginhorizontal_tiny">4dp</dimen>
+    <dimen name="marginhorizontal_small">8dp</dimen>
+    <dimen name="marginhorizontal_normal">16dp</dimen>
+    <dimen name="marginhorizontal_large">64dp</dimen>
+    <dimen name="marginhorizontal_huge">80dp</dimen>
+    <dimen name="marginhorizontal_jumbo">104dp</dimen>
+    <dimen name="paddingvertical_small">8dp</dimen>
+    <dimen name="paddingvertical_normal">16dp</dimen>
+    <dimen name="paddingvertical_large">32dp</dimen>
+
+    <!-- Стандартные размеры элементов -->
+    <dimen name="height_textfield">48dp</dimen>
+    <dimen name="height_block">64dp</dimen>
+
+    <dimen name="size_image_small">48dp</dimen>
+    <dimen name="size_image_large">360dp</dimen>
+
+    <dimen name="size_icon_small">16dp</dimen>
+    <dimen name="size_icon_normal">24dp</dimen>
+    <dimen name="size_squarebutton">48dp</dimen>
+
+    <dimen name="cardview_cornerradius">4dp</dimen>
+    <dimen name="cardview_elevation">8dp</dimen>
+
+    <!-- Текст -->
+    <dimen name="size_text_primary">16sp</dimen>
+    <dimen name="size_text_secondary">14sp</dimen>
+    <dimen name="size_text_small">12sp</dimen>
+
+    <!-- Элементы конкретного layout -->
+    <dimen name="height_loginbar_expanded">240dp</dimen>
+    <dimen name="height_loginbar_collapsed">56dp</dimen>
+    <dimen name="padding_login_button_vk">8dp</dimen>
+
+</resources>

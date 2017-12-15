@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayout_userlist_empty"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_textfield"
+    android:layout_marginLeft="@dimen/marginhorizontal_small"
+    android:layout_marginStart="@dimen/marginhorizontal_small"
+    android:layout_marginRight="@dimen/marginhorizontal_small"
+    android:layout_marginEnd="@dimen/marginhorizontal_small"
+    android:layout_marginTop="@dimen/marginvertical_small"
+    app:cardCornerRadius="@dimen/cardview_cornerradius"
+    app:cardElevation="@dimen/cardview_elevation">
+
+    <TextView
+        android:id="@+id/tv_userlist_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/userlist_empty"
+        style="@style/Text.Primary"
+        />
+
+</LinearLayout>

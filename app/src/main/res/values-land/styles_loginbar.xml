@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Styles XML для AppBar в UserListFragment -->
+    <style name="Loginbar.Title" parent="TextAppearance.Design.CollapsingToolbar.Expanded" />
+
+</resources>

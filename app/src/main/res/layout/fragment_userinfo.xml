@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintlayout_userinfo"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/primary"
+        style="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <ImageView
+        android:id="@+id/iv_userinfo_image"
+        android:layout_width="@dimen/size_image_small"
+        android:layout_height="@dimen/size_image_small"
+        android:layout_marginLeft="@dimen/marginhorizontal_normal"
+        android:layout_marginStart="@dimen/marginhorizontal_normal"
+        android:layout_marginTop="@dimen/marginvertical_normal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_userinfo"
+        android:contentDescription="@string/userinfo_image_contentdescription"
+        tools:background="@color/primary_light"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginhorizontal_normal"
+        android:layout_marginStart="@dimen/marginhorizontal_normal"
+        android:layout_marginTop="@dimen/marginvertical_normal"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_image"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_userinfo"
+        tools:text="username"
+        style="@style/Text.Primary"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_fullname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginhorizontal_small"
+        android:layout_marginStart="@dimen/marginhorizontal_small"
+        android:layout_marginTop="@dimen/marginvertical_normal"
+        app:layout_constraintLeft_toRightOf="@id/tv_userinfo_username"
+        app:layout_constraintBottom_toBottomOf="@id/tv_userinfo_username"
+        tools:text="Name Surname"
+        style="@style/Text.Secondary"
+        />
+
+    <ImageView
+        android:id="@+id/iv_userinfo_location"
+        android:layout_width="@dimen/size_icon_small"
+        android:layout_height="@dimen/size_icon_small"
+        android:layout_marginLeft="@dimen/marginhorizontal_normal"
+        android:layout_marginStart="@dimen/marginhorizontal_normal"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_image"
+        app:layout_constraintTop_toTopOf="@id/tv_userinfo_location"
+        app:layout_constraintBottom_toBottomOf="@id/tv_userinfo_location"
+        android:contentDescription="@string/userinfo_icon_location_contentdescription"
+        app:srcCompat="@drawable/ic_location_24dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginhorizontal_small"
+        android:layout_marginStart="@dimen/marginhorizontal_small"
+        android:layout_marginTop="@dimen/marginvertical_tiny"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_location"
+        app:layout_constraintTop_toBottomOf="@id/tv_userinfo_username"
+        tools:text="Ekaterinburg"
+        style="@style/Text.Secondary"
+        />
+
+    <ImageView
+        android:id="@+id/iv_userinfo_blog"
+        android:layout_width="@dimen/size_icon_small"
+        android:layout_height="@dimen/size_icon_small"
+        android:layout_marginLeft="@dimen/marginhorizontal_normal"
+        android:layout_marginStart="@dimen/marginhorizontal_normal"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_image"
+        app:layout_constraintTop_toTopOf="@id/tv_userinfo_blog"
+        app:layout_constraintBottom_toBottomOf="@id/tv_userinfo_blog"
+        android:contentDescription="@string/userinfo_icon_blog_contentdescription"
+        app:srcCompat="@drawable/ic_link_24dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginhorizontal_small"
+        android:layout_marginStart="@dimen/marginhorizontal_small"
+        android:layout_marginTop="@dimen/marginvertical_tiny"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_blog"
+        app:layout_constraintTop_toBottomOf="@id/tv_userinfo_location"
+        tools:text="example.com"
+        android:autoLink="web"
+        style="@style/Text.HyperLink"
+        />
+
+    <ImageView
+        android:id="@+id/iv_userinfo_email"
+        android:layout_width="@dimen/size_icon_small"
+        android:layout_height="@dimen/size_icon_small"
+        android:layout_marginLeft="@dimen/marginhorizontal_normal"
+        android:layout_marginStart="@dimen/marginhorizontal_normal"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_image"
+        app:layout_constraintTop_toTopOf="@id/tv_userinfo_email"
+        app:layout_constraintBottom_toBottomOf="@id/tv_userinfo_email"
+        android:contentDescription="@string/userinfo_icon_email_contentdescription"
+        app:srcCompat="@drawable/ic_email_24dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginhorizontal_small"
+        android:layout_marginStart="@dimen/marginhorizontal_small"
+        android:layout_marginTop="@dimen/marginvertical_tiny"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_email"
+        app:layout_constraintTop_toBottomOf="@id/tv_userinfo_blog"
+        tools:text="mborzenkov-dev@ya.ru"
+        android:autoLink="email"
+        style="@style/Text.HyperLink"
+        />
+
+    <ImageView
+        android:id="@+id/iv_userinfo_followers"
+        android:layout_width="@dimen/size_icon_small"
+        android:layout_height="@dimen/size_icon_small"
+        app:layout_constraintLeft_toLeftOf="@id/iv_userinfo_image"
+        app:layout_constraintTop_toTopOf="@id/tv_userinfo_followers"
+        app:layout_constraintBottom_toBottomOf="@id/tv_userinfo_followers"
+        app:srcCompat="@drawable/ic_followers_24dp"
+        android:contentDescription="@string/userinfo_icon_followers_contentdescription"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginvertical_small"
+        app:layout_constraintLeft_toRightOf="@id/iv_userinfo_followers"
+        app:layout_constraintTop_toBottomOf="@id/iv_userinfo_image"
+        tools:text="101"
+        style="@style/Text.Small"
+        />
+
+    <TextView
+        android:id="@+id/tv_userinfo_bio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginvertical_normal"
+        android:layout_marginLeft="@dimen/marginhorizontal_normal"
+        android:layout_marginStart="@dimen/marginhorizontal_normal"
+        android:layout_marginRight="@dimen/marginhorizontal_normal"
+        android:layout_marginEnd="@dimen/marginhorizontal_normal"
+        app:layout_constraintTop_toBottomOf="@id/tv_userinfo_followers"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Biography\nmultiline..."
+        style="@style/Text.Small"
+        />
+
+</android.support.constraint.ConstraintLayout>
